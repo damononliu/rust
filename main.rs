@@ -6,7 +6,7 @@
 */
 // 引用类库 io、net 用来完成TCP监听读取
 use std::{io::{Read, Write}, net::{TcpListener, TcpStream}};
-// 引入 thread 类库用来多线程处理
+// 引入 thread 类库处理多线程
 use std::thread;
 // 引入 str 库，转换输入的 buf 到 str 类型
 use std::str;
